@@ -1,3 +1,6 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable no-unused-vars */
+/* eslint-disable prettier/prettier */
 
 const { ethers } = require("hardhat");
 
@@ -17,7 +20,5 @@ module.exports = async ({ getNamedAccounts, deployments, getChainId }) => {
 
   // Getting a previously deployed contract
   const DiceGame = await ethers.getContract("DiceGame", deployer);
-
-
 };
 module.exports.tags = ["DiceGame"];
